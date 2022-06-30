@@ -19,7 +19,9 @@
 @import url(../blocks/content/places/__artist-info/places__artist-info.css);
 @import url(../blocks/content/places/__url-heading/places__url-heading.css);
 @import url(../blocks/content/places/__artist/places__artist.css);
+@import url(../blocks/content/places/__content/places__content.css);
 @import url(../blocks/content/places/__image/places__image.css);
+@import url(../blocks/content/places/__text/places__text.css);
 @import url(../blocks/content/places/__paragraph/places__paragraph.css);
 @import url(../blocks/content/places/__button/places__button.css);
 
