@@ -1,0 +1,8 @@
+.places__artist-info {
+  max-width: 484px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  flex-wrap: wrap;
+}

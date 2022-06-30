@@ -1,0 +1,6 @@
+.places__main-info {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  max-height: 152px;
+}
