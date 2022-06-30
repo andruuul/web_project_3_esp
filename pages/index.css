@@ -16,7 +16,9 @@
 @import url(../blocks/content/places/__card/places__card.css);
 @import url(../blocks/content/places/__main-info/places__main-info.css);
 @import url(../blocks/content/places/__title/places__title.css);
+@import url(../blocks/content/places/__title/__extra-space/places__title_extra-space.css);
 @import url(../blocks/content/places/__artist-info/places__artist-info.css);
+@import url(../blocks/content/places/__artist-info/_left-position/places__artist-info_left-position.css);
 @import url(../blocks/content/places/__url-heading/places__url-heading.css);
 @import url(../blocks/content/places/__artist/places__artist.css);
 @import url(../blocks/content/places/__content/places__content.css);
@@ -24,6 +26,8 @@
 @import url(../blocks/content/places/__text/places__text.css);
 @import url(../blocks/content/places/__paragraph/places__paragraph.css);
 @import url(../blocks/content/places/__button/places__button.css);
+@import url(../blocks/content/places/__button/_top-position-us/places__button_top-position-us.css);
+@import url(../blocks/content/places/__button/_top-position-bi/places__button_top-position-bi.css);
 
 
 @font-face {

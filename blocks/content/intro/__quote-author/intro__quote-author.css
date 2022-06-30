@@ -1,6 +1,5 @@
 .intro__quote-author {
   max-width: 720px;
-  margin-top: -40px;
   padding-bottom: 32px;
   font-family: 'Inter-Regular';
   font-weight: normal;
@@ -8,4 +7,6 @@
   line-height: 1.42;
   text-align: right;
   color: #fff;
+  position: relative;
+  bottom: 40px;
 }
