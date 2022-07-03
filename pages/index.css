@@ -55,5 +55,17 @@
   background-color: #2A2C2F;
   max-width: 1440px;
   margin: auto;
+  overflow: hidden;
 }
+
+@media screen and (max-width: 768px) {
+
+  .lead__image {
+    width: 768px;
+    height: 480px;
+    filter: none;
+
+  }
+    
+  }
 

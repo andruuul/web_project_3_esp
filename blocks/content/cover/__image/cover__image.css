@@ -3,9 +3,10 @@
   position: absolute;
   margin: 0;
   padding: 0;
-  object-fit: cover;
-  max-width: 1184px;
-  max-height: 740px;
+  max-width: auto;
+  min-width: none;
+  height: 740px;
+  object-fit: fill;
 }
 
 .cover__image:hover {
