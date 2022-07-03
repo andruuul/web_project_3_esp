@@ -22,3 +22,7 @@
   background: #0063D2;
   cursor: pointer;
 }
+
+.cover__container:hover .cover__image {
+  opacity: 0.2;
+}

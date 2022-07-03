@@ -11,7 +11,3 @@
 .cover__image:hover {
   opacity: 0.2;
 }
-
-.cover__image:hover .cover__button:hover {
-    opacity: .2;
-  }
