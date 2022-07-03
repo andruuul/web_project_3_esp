@@ -53,19 +53,37 @@
 
 .page {
   background-color: #2A2C2F;
-  max-width: 1440px;
+  max-width: auto;
   margin: auto;
   overflow: hidden;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
 
-  .lead__image {
-    width: 768px;
-    height: 480px;
-    filter: none;
-
-  }
+.lead__image {
+  width: 768px;
+  height: 480px;
+  filter: none;
+}
     
-  }
+.cover__image {
+  width: 768px;
+  height: 746px;
+}
 
+.intro {
+  padding: 55px 24px 64px;
+}
+
+.intro__quote {
+   padding-top: 15px;
+}
+
+.photo-grid {
+  padding: 0px 24px 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+}
+
+}
