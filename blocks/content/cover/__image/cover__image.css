@@ -1,0 +1,17 @@
+.cover__image {
+  opacity: 0.7;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+  max-width: 1184px;
+  max-height: 740px;
+}
+
+.cover__image:hover {
+  opacity: 0.2;
+}
+
+.cover__image:hover .cover__button:hover {
+    opacity: .2;
+  }
