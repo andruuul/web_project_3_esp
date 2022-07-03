@@ -1,7 +1,7 @@
 .places__content {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   margin: 0;
   padding: 48px 0 0;
 }
