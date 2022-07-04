@@ -55,6 +55,10 @@
 
 @media screen and (max-width: 1200px) {
 
+.lead__subtitle {
+  padding-top: 99px;
+}
+
 .lead__image {
   width: 768px;
   height: 480px;
@@ -63,7 +67,7 @@
     
 .cover__image {
   width: 768px;
-  height: 746px;
+  height: 746px; /*va de último*/
 }
 
 .intro {
@@ -84,6 +88,47 @@
 .places {
   padding: 88px 24px 0;
   margin: 0;
+}
+
+.places__grid {
+  padding: 0 0 30px;
+  grid-template-columns: 340px fit-content(352px);
+  grid-template-rows: 89px 340px auto;
+  gap: 24px;
+  width: fit-content;
+}
+
+.places__title {
+  font-size: 42px;
+  line-height: 1.1;
+  display: flex;
+  align-self: center;
+}
+
+.places__title_extra-space {
+  font-size: 42px;
+  line-height: 1.1;
+  color: #fff;
+  min-width: 300px;
+  max-width: 340px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.places__paragraph {
+font-size: 16px;
+line-height: 1.63;
+color: #fff;
+margin: 0;
+padding: 0 0 20px;
+}
+
+.places__image {
+  width: 340px;
+  height: 340px;
 }
 
 }
