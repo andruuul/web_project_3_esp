@@ -1,0 +1,13 @@
+.places__grid {
+  display: grid;
+  margin: auto;
+  padding: 0 0 80px;
+  grid-template-columns: fit-content(460px) fit-content(484px);
+  grid-template-rows: 152px 460px auto;
+  gap: 40px;
+  max-width: 984px;
+}
+
+.places__grid:last-of-type {
+  padding: 0 0 92px;
+}

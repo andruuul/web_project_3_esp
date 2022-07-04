@@ -3,5 +3,7 @@
   height: 460px;
   object-fit: cover;
   margin: 0;
-  padding: 0 40px 0 0;
+  padding: 0;
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
 }

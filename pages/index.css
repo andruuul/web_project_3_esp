@@ -13,21 +13,16 @@
 @import url(../blocks/content/photo-grid/__item/photo-grid__item.css);
 @import url(../blocks/content/photo-grid/__image/photo-grid__image.css);
 @import url(../blocks/content/places/places.css);
-@import url(../blocks/content/places/__card/places__card.css);
-@import url(../blocks/content/places/__main-info/places__main-info.css);
+@import url(../blocks/content/places/__grid/places__grid.css);
 @import url(../blocks/content/places/__title/places__title.css);
-@import url(../blocks/content/places/__title/__extra-space/places__title_extra-space.css);
+@import url(../blocks/content/places/__title/_extra-space/places__title_extra-space.css);
 @import url(../blocks/content/places/__artist-info/places__artist-info.css);
-@import url(../blocks/content/places/__artist-info/_left-position/places__artist-info_left-position.css);
 @import url(../blocks/content/places/__url-heading/places__url-heading.css);
 @import url(../blocks/content/places/__artist/places__artist.css);
-@import url(../blocks/content/places/__content/places__content.css);
 @import url(../blocks/content/places/__image/places__image.css);
 @import url(../blocks/content/places/__text/places__text.css);
 @import url(../blocks/content/places/__paragraph/places__paragraph.css);
 @import url(../blocks/content/places/__button/places__button.css);
-@import url(../blocks/content/places/__button/_top-position-us/places__button_top-position-us.css);
-@import url(../blocks/content/places/__button/_top-position-bi/places__button_top-position-bi.css);
 @import url(../blocks/content/cover/cover.css);
 @import url(../blocks/content/cover/__image/cover__image.css);
 @import url(../blocks/content/cover/__container/cover__container.css);
@@ -84,6 +79,11 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 16px;
+}
+
+.places {
+  padding: 88px 24px 0;
+  margin: 0;
 }
 
 }

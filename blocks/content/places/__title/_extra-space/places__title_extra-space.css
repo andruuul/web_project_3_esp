@@ -4,7 +4,7 @@
   font-weight: normal;
   line-height: 1.06;
   color: #fff;
-  max-width: 584px;
+  min-width: 584px;
   margin: 0;
   padding: 0;
 }

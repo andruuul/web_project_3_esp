@@ -10,12 +10,14 @@
   font-size: 18px;
   line-height: 1;
   color: #fff;
-  margin: 48px 0 0;
+  margin: 8px 0 0;
   padding: 0;
   text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: center;
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
 }
 
 .places__button:hover {

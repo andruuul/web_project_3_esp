@@ -1,9 +1,12 @@
 .places__artist-info {
   max-width: 484px;
+  max-height: 152px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   flex-wrap: wrap;
   margin: 0;
-  padding: 0 0 0 40px;
+  padding: 0;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
 }
