@@ -281,13 +281,18 @@ padding: 44px 16px 38px;
   line-height: 1.09;
   color: #fff;
   width: 288px;
+  padding: 0 0 16px;
 }
+
 
 .cover__text {
   font-size: 16px;
   line-height: 1.14;
-  width: 280px;
-  padding: 16px 0 29px;
+  max-width: 280px;
+}
+
+.cover__button {
+  margin: 16px 0 0;
 }
 
 .footer {
