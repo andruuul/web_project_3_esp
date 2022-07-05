@@ -49,6 +49,7 @@
 .page {
   background-color: #2A2C2F;
   max-width: auto;
+  min-width: 320px;
   margin: auto;
   overflow: hidden;
 }
@@ -62,12 +63,6 @@
 .lead__image {
   width: 768px;
   height: 480px;
-  filter: none;
-}
-    
-.cover__image {
-  width: 768px;
-  height: 746px; /*va de último*/
 }
 
 .intro {
@@ -129,6 +124,166 @@ padding: 0 0 20px;
 .places__image {
   width: 340px;
   height: 340px;
+}
+
+.cover__image {
+  width: 100%;
+  min-height: 740px;
+}
+
+}
+
+@media screen and (max-width: 680px) {
+  
+.header {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.lead__title {
+  font-size: 40px;
+  line-height: 1.1;
+}
+
+.lead__subtitle {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.lead__image {
+  width: 320px;
+  height: 200px;
+  filter: none;
+}
+    
+.intro {
+padding: 44px 16px 38px;
+}
+
+.intro__title {
+  font-size: 32px;
+}
+
+.intro__quote {
+  font-size: 24px;
+  line-height: 1.25;
+  padding: 0;
+  margin: 0;
+}
+
+.intro__quote-author {
+  position: static;
+  font-size: 24px;
+  bottom: 0px;
+}
+
+.photo-grid {
+  padding: 0px 16px 0px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 12px;
+}
+
+.places {
+  padding: 62px 16px 0;
+  margin: 0;
+}
+
+.places__grid {
+  padding: 0 0 16px;
+  grid-template-columns: 288px;
+  grid-template-rows: auto;
+  gap: 0;
+}
+
+.places__title {
+  font-size: 32px;
+  line-height: 1.09;
+  display: flex;
+  align-self: center;
+  grid-column: 1;
+  grid-row: 1 / 2;
+  padding-bottom: 30px;
+}
+
+.places__title_extra-space {
+  font-size: 32px;
+  line-height: 1.09;
+  padding-bottom: 30px;
+  color: #fff;
+  min-width: 300px;
+  max-width: 340px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  grid-column: 1;
+  grid-row: 1 / 2;
+}
+
+.places__artist-info {
+  grid-column: 1;
+  grid-row: 2 / 3;
+}
+
+.places__paragraph {
+  font-size: 16px;
+  line-height: 1.63;
+  color: #fff;
+  margin: 0;
+  padding: 0 0 6px;
+  }
+
+.places__image {
+  width: 320px;
+  height: 320px;
+  grid-column: 1;
+  grid-row: 3 / 4;
+  position: relative;
+  right: 16px;
+  padding-top: 30px;
+}
+
+.places__text {
+  grid-column: 1;
+  grid-row: 4 / 5;
+}
+
+.places__button {
+  grid-column: 1;
+  grid-row: 5 / 6;
+  width: 288px;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.cover {
+  min-height: 254px;
+}
+  
+.cover__image {
+  width: 100%;
+  min-height: 254px;
+  max-height: 254px;
+}
+
+.cover__title {
+  font-size: 32px;
+  line-height: 1.09;
+  color: #fff;
+  width: 288px;
+}
+
+.cover__text {
+  font-size: 16px;
+  line-height: 1.14;
+  width: 280px;
+  padding: 16px 0 29px;
+}
+
+.footer {
+  padding: 64px 0 24px;
 }
 
 }

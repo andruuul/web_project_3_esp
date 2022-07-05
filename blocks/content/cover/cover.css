@@ -4,6 +4,7 @@
   margin: 0 48px 0;
   padding: 0;
   min-height: 740px;
+  width: auto;
 }
 
 .cover:hover .cover__image {
