@@ -1,5 +1,6 @@
 @import url(../styles/normalize.css);
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/content/lead/lead.css);
 @import url(../blocks/content/lead/__title/lead__title.css);
 @import url(../blocks/content/lead/__subtitle/lead__subtitle.css);
@@ -140,6 +141,14 @@ padding: 0 0 20px;
   padding-bottom: 50px;
 }
 
+.header__logo {
+  transform: scale(0.74);
+}
+
+.lead {
+  padding: 0 16px 0;
+}
+
 .lead__title {
   font-size: 40px;
   line-height: 1.1;
@@ -260,6 +269,7 @@ padding: 44px 16px 38px;
 
 .cover {
   min-height: 254px;
+  margin: 0 48px 0;
 }
   
 .cover__image {
